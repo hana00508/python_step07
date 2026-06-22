@@ -14,6 +14,7 @@ class MeshAsset:
         status = "HEAVY" if self.is_heavy() else "OK"
         print(f"{self.get_full_name()} | {self.poly_count}poly | {status}")
 
+
 class CharacterAsset:
     def __init__(self, name, meshes, texture_res):
         self.name = name
